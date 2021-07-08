@@ -6,7 +6,7 @@
 3. Using TCP Protocol
 4. Saving the message everytime server receiving it.
 5. Broadcasting incoming message to other clients except the message sender.
-6. 
+6. Each Client can have their own unique username
 # Server and Client Connection Flowchart
 ![Server Flowchart (2)](https://user-images.githubusercontent.com/64347680/124899813-ad7edf80-e00a-11eb-878f-7d8ed5aba96a.png)
 
