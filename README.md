@@ -11,9 +11,6 @@
 ![Server Flowchart (2)](https://user-images.githubusercontent.com/64347680/124899813-ad7edf80-e00a-11eb-878f-7d8ed5aba96a.png)
 
 # How Server and Client Program Works
-![Screenshot (161)](https://user-images.githubusercontent.com/64347680/124783389-39432e00-df6f-11eb-8be0-db248306289c.png)
-![Screenshot (162)](https://user-images.githubusercontent.com/64347680/124783518-54ae3900-df6f-11eb-8849-67b749af4c2b.png)
-
 1. Server Program Will wait for Client Connection 
 2. If Client connected, server will add client to client list and start a new clientListener thread for receiving, broadcast and save client messsages.
 3. If Client Program is sending  a message, Server will receive it, save it to .txt and broadcast the message to other client except the sender.
