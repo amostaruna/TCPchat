@@ -73,6 +73,7 @@ namespace Client
             {
 
                 Console.Write(e.Message);
+                 Environment.Exit(1);
             }
 
             Console.ReadKey();
